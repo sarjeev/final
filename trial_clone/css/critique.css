@@ -1,8 +1,8 @@
 /* Slideshow container */
 .slideshow-container {
-  max-width: 400px;
+  max-width: 350px;
   position: relative;
-  margin: 10px;
+  margin: auto;
 }
 
 /* The dots/bullets/indicators */
