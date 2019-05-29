@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Study Skills | Essays </title>
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/navstyle.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="description" content="Academic Assignments">
+    <meta name="keywords" content="Team 3s, Study Skills, Academic Assignments, Essay, Drafting Essays,
+                Constructing Essays, Sample Essays, Interactive Sample Essay, Reports, Report Formats,
+                Reading and Writing about Data, Other Assignments, Critiques, Annotated bibliographies,
+                Literature Reviews, Help with Assignments, Assignment Help">
+		<meta name="author" content="Teams 3S, Sudarshan Kumar Bhattarai, Samundra Dhakal, Sarjeev Adhikari">
+		<meta http-equiv="refresh" content="560">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+<body>
+
+  <div id='cssnav'>
+    <ul>
+      <a href="http://learnline.cdu.edu.au/studyskills/index.html"><img src="../images/logo.jpg" class="logo-image" alt="Charles Darwin University"></a>
+      <li ><a href='#'>CDU Home</a></li>
+      <li><a href='#'>Courses</a></li>
+      <li><a href='#'>Faculties & Schools</a></li>
+      <li><a href='#'>Library</a></li>
+       <!--search-->
+       <input type="text" id="search" name="search"  placeholder="SEARCH HERE" />
+    </ul>
+  </div>
+
+  <div class="centered"> <strong>Academic Assignment </strong></div>
+    <div id="sidebar" onclick="toggleSidebar()">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navigation">
+        <ul class="mainmenu">
+          <li><a href="#">Academic Assignments</a>
+            <ul class="submenu">
+              <li><a href="#">Essays</a></li>
+              <li><a href="#">Reports</a></li>
+              <li><a href="#">Other Assignment Types</a><li>
+            </ul>
+          </li>
+          <li><a href="#">Critical Thinking</a>
+            <ul class="submenu">
+              <li><a href="#">Critical Thinking at University</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Note Making</a>
+            <ul class="submenu">
+              <li><a href="#">Effective Note Making</a></li>
+              <li><a href="#">Strategies</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Videos & Interactives</a>
+            <ul class="submenu">
+              <li><a href="#">Video Resources</a></li>
+              <li><a href="#">Interactive Resources</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Exams</a></li>
+          <li><a href="#">Academic Writing</a></li>
+          <li><a href="#">Referencing</a></li>
+          <li><a href="#">Exams</a></li>
+          <li><a href="#">Research and Reading</a></li>
+          <li><a href="#">Managing Studies</a></li>
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Learnline Login</button>
+          </ul>
+           </nav>
+            <div id="id01" class="modal">
+              <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                 <img src="../images/avatar.png" alt="Avatar" class="avatar">
+                </div>
+
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                 <input type="text" placeholder="Enter Username" name="uname" required>
+                 <label for="psw"><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw" required>
+                 <button type="submit">Login</button>
+                 <label>
+                 <input type="checkbox" checked="checked" name="remember"> Remember me
+                 </label>
+               </div>
+
+               <div class="container" style="background-color:#f1f1f1">
+                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                 <span class="psw">Forgot <a href="#">password?</a></span>
+               </div>
+             </form>
+           </div>
+      </div>
+
+<!--slideshow-->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="../images/essay_structure.jpg" style="width:100%" alt="report image">
+      </div>
+      <div class="mySlides fade">
+        <img src="../images/constructing_essays.jpg" style="width:100%" alt="constructing essays image">
+      </div>
+      <div class="mySlides fade">
+        <img src="../images/drafting_essays.jpg" style="width:100%" alt="structuring essays image">
+      </div>
+      <div class="mySlides fade">
+        <img src="../images/essay_review.jpg" style="width:100%" alt="slides image">
+      </div>
+      <div class="mySlides fade">
+        <img src="../images/essay_sample.jpg" style="width:100%" alt="slides2s image">
+      </div>
+    </div><br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+     </div>
+
+<!--creating two sections for drafting and constructing-->
+     <div class="drafting" id="drafting">
+       <p>DRAFTING ESSAYS</p>
+       <div class="Design">
+         <h3> Introduction & Conclusions </h3>
+         <img src="../images/essay_intro.jpg" alt="intro">
+         <div class="container">
+           <p>In writing an introduction and conclusion, follow the guidelines presented below.</p>
+           <button onclick="introduction_on()">Introduction </button>
+           <button onclick="conclusion_on()">Conclusion </button>
+         </div>
+       </div>
+       <div class="Design">
+         <h3> Paragraph </h3>
+         <img src="../images/essay_paragraph.jpg" alt="paragraph">
+         <div class="container">
+           <p>Paragraph hshould be good enough to captire reader s attention.......... </p>
+           <button onclick="paragraph_on()">Read More</button>
+         </div>
+       </div>
+       <div class="Design">
+         <h3> Linking Words & Phrases </h3>
+         <img src="../images/essay_linking.jpg" alt="linking">
+         <div class="container">
+           <p>Essays are the most common form of assessments at universuty
+            <button onclick="link_on()">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="constructing" id="constructing">
+      <p>CONSTRUCTING ESSAYS</p>
+      <video class="video" controls width="1500" height="550" poster="../images/interpreting.jpg">
+        <source src="../images/interpreting.mp4">
+      </video>
+      <div class="Design">
+        <h3> Prepare </h3>
+        <img src="../images/essay_prepare.jpg" alt="prepare">
+        <div class="container">
+          <p>Essays are the most common form of assessments at university</p>
+          <button onclick="prepare_on()">Read More</button>
+        </div>
+      </div>
+      <div class="Design">
+        <h3> Structure </h3>
+        <img src="../images/essay_structure.jpg" alt="structure">
+        <div class="container">
+          <p>Essays are the most common form of assessments at university</p>
+          <button onclick="structure_on()">Read More</button>
+        </div>
+      </div>
+      <div class="Design">
+        <h3> Use Evidence </h3>
+        <img src="../images/essay_evidence.jpg" alt="evidence" width="100">
+        <div class="container">
+          <p>Essays are the most common form of assessments at university</p>
+          <button onclick="evidence_on()">Read More</button>
+        </div>
+      </div>
+      <div class="Design">
+        <h3> Review </h3>
+        <img src="../images/essay_review.jpg" alt="reviews" width="100">
+        <div class="container">
+          <p>Essays are the most common form of assessments at university</p>
+          <button onclick="review_on()">Read More</button>
+        </div>
+      </div>
+      <div class="Design">
+        <h3> Sample Essays </h3>
+        <img src="../images/essay_sample.jpg" alt="sample" width="100">
+        <div class="container">
+          <p>Essays are the most common form of assessments at university</p>
+          <button onclick="sample_on()">Read More</button>
+        </div>
+      </div>
+    </div>
+
+<!--overlay text for introduction button-->
+  <div id="introduction" onclick="introduction_off()">
+    <div class="text">
+      <h1>Introductions</h1>
+      <p>An introduction should include the following:</p>
+        <ol type="a">
+          <li>Background information<br>
+                This is normally two or three sentences which give the reader general information about the topic that you will write about.</li>
+          <li>Thesis statement/topic<br>
+                This is the most important part of the introduction. It introduces the main topic or argument on which the essay will be based.</li>
+          <li>Outline<br>
+                The outline tells the reader what the sub-topics of the essay will be and in doing so how the essay will be organised.</li>
+          <li>Scope<br>
+                This section is only required if you are going to narrow your discussion of the topic down e.g. to a particular time or place.</li>
+        </ol>
+        <p><strong>Example 1:</strong>he underlined section of the paragraph is the thesis statement</p>
+        <p class="example">Education plays an important role in the community’s capacity to deal with emergencies,
+               following a disaster or when a country is in conflict, contributing stability to the lives of girls
+               and boys and helping families to heal and look forward. The benefits of educating girls have long been established.
+               Now there is new understanding as to why educating girls is the most urgent task facing the global development community.
+                This paper will argue that it is <u>girls’ education</u> that <u>is the most effective means of combating many of the most profound challenges to human development,
+                 and </u>that <u>for communities</u>, the <u>strategies for providing girls the opportunities to complete their education yield benefits for all.</u></p>
+        <p><strong>Example 2:</strong>he underlined section of the paragraph is the thesis statement</p>
+        <p class="example">Increasingly, research associated with prenatal development suggests the mother’s health and lifestyle have some influence on the life of the foetus.
+              <u>This essay will show that the physical health of the mother and her lifestyle will greatly influence the development of the foetus.</u>
+              It will show this by examining the effects of the following on a mother and in turn on her unborn child: smoking, malnutrition, drugs and diseases.</p>
+    </div>
+  </div>
+
+  <!--overlay text for conclusion button-->
+  <div id="conclusion" onclick="conclusion_off()">
+    <div class="text">
+      <h1>Conclusions</h1>
+      <p>The conclusion usually starts with ‘In conclusion’, or ‘To sum up…” and should:
+        <ul>
+          <li>restate your thesis or the main idea of the paper</li>
+          <li>give an outline: This provides a summary of the sub-topics/issues covered in the essay</li>
+          <li>qualify your thesis: Review the thesis statement acknowledging significant counter evidence if necessary.</li>
+        </ul>
+      </p>
+      <p><strong>Example 1:</strong>he underlined section of the paragraph is the thesis statement</p>
+      <p class="example">In all, <u>it is possible to conclude that the physical health of the mother will greatly influence the development of the foetus.</u>
+                 In the majority of cases, the factors influencing the mother’s health such as smoking, malnutrition, drugs and diseases are closely
+                  related so that it becomes difficult for researchers to determine which factor and to what extent that factor is responsible for the adverse effects caused to development of the foetus.
+                  However, a great deal of the research associated with prenatal development does indicate that <u>the main influences on the environment and development of the foetus are from controllable causes.</u></p>
+      <p><strong>Example 2:</strong>he underlined section of the paragraph is the thesis statement</p>
+      <p class="example">The arguments presented in this paper have shown that educating girls from the very
+                 early years not only ensures that <u>girls grow up healthier and more able to protect themselves and ensure their own well being; educating girls also benefits communities.</u>
+                  Through the provision of resources and improved services implemented to support girls’ education, the lives of all people in a community improve.
+                   In addition, educating girls equates to educating women who will in the future be able to better nurture and support their families.
+                   All in all, it has to be said that <u>educating a girl is equivalent to educating a whole family and educating a community.</u></p>
+    </div>
+  </div>
+
+<!--overlaying text for paragraph button-->
+  <div id="paragraph" onclick="paragraph_off()">
+    <div class="text">
+      <h1>What is a paragraph?</h1>
+      <p>A paragraph is a group of sentences that relates to a certain theme or idea.
+        The length of a paragraph may vary, but the average paragraph should be between 80-120 words long.</p>
+      <p>Ideally, a paragraph should have a beginning, middle and an end.
+         This should include a <strong>topic sentence</strong> which is the main idea or theme of the paragraph, <strong>supporting sentences</strong> which provide further information and explanation of the main idea and in some cases a
+         <strong>concluding sentence.</strong> (This concluding sentence is not always necessary but in longer paragraphs it does help to
+          add clarity and strength to your discussion).</p>
+      <p>In the following examples, the topic sentences are underlined.
+        In example 1 and 2, the supporting sentences explain the topic sentence further.
+        In example 3, examples are given to support the topic sentence.</p>
+      <p><strong>Example 1:</strong> The underlined section of the paragraph is the topic sentence</p>
+      <p class="example"><u>In most education systems, the consequences are very serious if children do not learn to read by the end of grade three.</u>
+         This is because teachers in the upper primary years do not think that they should have to teach students how to read.
+         Instead, they expect students to develop skills in learning from reading. By the time students reach high school they are expected to learn through reading texts.
+          Thus, the child who reaches upper primary school without being able to read, will never be able to complete school.</p>
+      <p><strong>Example 2:</strong> The underlined section of the paragraph is the topic sentence</p>
+      <p class="example"><u>Nepal is one of the poorest countries in the world.</u>
+        Inequitable access to land complicates the dependence of the largely rural population on subsistence agriculture,
+        and has meant a growing reliance on the cash economy.
+        This means increased migration for men for work, heavier workloads for women and children, and an erosion
+         of traditional family patterns. Internal conflict over recent years has caused even greater hardship for the country’s poor.</p>
+        <p><strong>Example 3:</strong> The underlined section of the paragraph is the topic sentence</p>
+
+      <p  class="example"><u>Childhood malnutrition and illness can have devastating consequences for the cognitive development of a child.</u>
+        For example, iron deficiency anaemia reduces cognitive functions, iodine deficiency causes irreversible intellectual impairment and vitamin A deficiency is
+         the primary cause of blindness among children.
+         Childhood malnutrition can also leave individuals more vulnerable to ill‑health in both childhood and adulthood, and thus more likely to exacerbate the cycle of this.
+          While some gains can be made during adolescence, damage done to cognitive development cannot be reversed.</p>
+      </div>
+    </div>
+
+<!--overlaying text for linking words and phrases-->
+    <div id="link" onclick="link_off()">
+      <div class="text">
+        <img src="../images/essay_example1.png" alt="exapmle1">
+        <img src="../images/essay_example2.png" alt="exapmle2">
+        <img src="../images/essay_example3.png" alt="exapmle3">
+        <img src="../images/essay_example4.png" alt="exapmle4">
+                    </div>
+                  </div>
+
+
+<!--overlaying text for prepare-->
+      <div id="prepare" onclick="prepare_off()">
+        <div class="text">
+          <h1>Analysing the topic</h1>
+          <p>Before you begin work on an essay, it is important that you understand what you are being asked to discuss.
+            So you need to analyse the essay question carefully.
+             An essay question usually contains:</p>
+            <p><strong>Orientation:</strong> A general preamble about the topic which explains why or what the debate is about<br>
+              <strong>Topic:</strong> This is the subject that the question is about <br>
+              <strong>Focus:</strong> This tells you what specific aspects of the topic the question is interested in<br>
+              <strong>Directions:</strong> This tells you what you are being asked to do (e.g. to discuss, explain, argue)</p>
+
+            <p><strong>Example Essay Question</strong></p>
+            <p>Childhood malnutrition and illness can have devastating consequences for the cognitive development of a child.
+              This can lead to a lifetime of educational and social disadvantage.
+              Discuss the role of the national government in addressing this issue in communities substantially affected by alcohol and drug misuse.</p>
+
+            <p><strong>Orientation:</strong>Childhood malnutrition and illness can have devastating consequences for the cognitive development of a child.
+               This can lead to a lifetime of educational and social disadvantage. <br>
+               <strong>Topic:</strong> Childhood malnutrition and illness<br>
+               <strong>Focus: </strong>What governments can/should do ... in communities substantially affected by alcohol and drug misuse<br>
+               <strong>Directions: </strong>Discuss (present an argument)</p>
+
+            <p>Before you analyse the essay question, make sure that you understand <strong>any key terms</strong> that have been used.
+              For example:<em> malnutrition, educational and social disadvantage, alcohol and drug misuse</em></p>
+
+            <p><strong>The next steps:</strong>
+              <ol type="1">
+                <li>draft a plan (a taxonomy) of how you will organise your essay</li>
+                <li>research (see more on conducting a literature search/note taking)</li>
+                <li>review your essay plan.</li>
+              </ol>
+
+
+      </div>
+      </div>
+
+<!--overlaying text for structure-->
+      <div id="structure" onclick="structure_off()">
+        <div class="text">
+          <p>Your essay needs to be written in an academic style (see <a href="#">drafting essays</a>) and have:</p>
+          <p><strong>An Introduction</strong><br>
+            A paragraph which introduces the essay topic and gives some <strong>background information</strong> or
+            context about this. The introduction also states the main point <strong>(thesis)</strong>
+            that is going to be argued and an <strong>outline</strong> of how the essay will be organised.</p>
+
+          <p><strong>A body</strong><br>
+            The body is the main part of the essay and is made up of a series of paragraphs which present the argument and
+            <a href="#">the evidence</a> for that argument.</p>
+
+          <p><strong>A conclusion</strong><br>
+            The conclusion provides a summary of the argument and restates the main claim.
+             It may also make some final statements about the topic.
+             However, nothing new is introduced in the conclusion.</p>
+
+
+
+        </div>
+        </div>
+
+
+<!--overlaying text for evidence-->
+        <div id="evidence" onclick="evidence_off()">
+          <div class="text">
+            <p>Evidence can come from different sources but should include facts, supported by expert opinions and observations, examples, anecdotes or other illustrations
+               such as graphs and diagrams.</p>
+
+            <p>Evidence should be integrated into your essays through quoting,
+               paraphrasing or summarising. All sources quoted, paraphrased or
+               summarised in your essay must be in the <a href="#">reference list</a> at the end of your work.</p>
+          </div>
+        </div>
+
+
+<!--overlaying text for review-->
+          <div id="review" onclick="review_off()">
+            <div class="text">
+              <h3>Review your paragraphs.</h3>
+
+              <p>Make sure that each of your paragraphs:
+                <ul>
+                  <li>discusses a key idea</li>
+                  <li>provides the supporting evidence for the key idea</li>
+                  <li>brings together the subsidiary points that help to establish your line of argument.</li>
+                </ul>
+                </p>
+
+              <h3>Review your draft essay.</h3>
+
+              <ul>
+                <li>After you have written a draft of your essay it will be necessary to review what you have achieved.
+                  An effective method is to read through each paragraph in the order that they appear in your draft.
+                  Write a one sentence summary of each paragraph:
+                  Compare each summary with what you intended (from your essay plan) to say.
+                   If there is a discrepancy then a rewrite of the paragraph might be needed.</li>
+                <li>Read each summary sentence, one after the other:<br>
+                If there is no logical connection or continuity between each summary sentence then a rewrite or
+                 reordering of the paragraphs will be needed.
+                 This might also be needed if there is no thematic continuity between them.</li>
+                 </ul>
+
+              <p>Once you have returned to your draft you will need to ask yourself a series of crucial questions:
+              <ul>
+                <li>Does it answer the question or topic as set?</li>
+                <li>Is the argument consistent?</li>
+                <li>Is the argument convincing?</li>
+                <li>Does the evidence support the argument?</li>
+                <li>Are the ideas clearly expressed?</li>
+                <li>Does the writing flow smoothly?</li>
+                <li>Does the essay have an effective introduction and conclusion?</li>
+                <li>Are the sentences grammatically constructed?</li>
+                <li>Is the length appropriate?</li>
+              </ul>
+              </p>
+
+              <p>Before submitting your final draft, check in your unit guidelines that your essay presentation conforms to what is required.
+                This includes adding your references, both in the text and in a reference list at the end of your essay.
+                The referencing style that you use depends on the expectations of your lecturer.
+                Always check first before choosing a referencing style.</p>
+
+              <p>Learn how to transform a journal reference to an APA 6th referencing style.</p>
+
+              <p><a href="#">A referencing guide</a> is available at the CDU Library website.</p>
+
+              <p>Once you have completed the above task, the next step and perhaps the most important step is to proofread your work.
+                 This video will help you to better understand the required strategies of how to proofread your work.
+                 Remember making mistakes isn't a bad thing - not taking the time to read through your work and correct them is.</p>
+
+              <p><a href="#">Proofreading</a></p>
+            </div>
+          </div>
+
+
+  <!--overlaying text for sample-->
+      <div id="sample" onclick="sample_off()">
+              <div class="text">
+                <h2>Sample essay: The internet</h2>
+                      <p><strong>The question</strong></p>
+                      <div class="example">
+                        <p>The internet has become an essential component of people's lives in the 21st century. However, there are concerns that the disadvantages of the internet may outweigh the advantages. </p>
+                        <p>Referring to current literature and drawing upon the perspectives of a minimum of four authors from this unit's recommended reading list, argue either in favour or against the impact of the internet in the last decade.</p>
+                      </div>
+                <h3>Analysis of the question</h3>
+                      <p><strong>Orientation: </strong>The internet has become an essential component of people's lives in the 21st century. However, there are concerns that the disadvantages of the internet may outweigh the advantages.<br />
+                        <strong>Topic: </strong>The internet<br />
+                        <strong>Focus: </strong>The impact of the internet on people's lives<br />
+                        <strong>Directions: </strong>Argue (present an argument) either in favour or against<br />
+                        <strong>Scope:</strong> In the last decade </p>
+                      <p>View the following <a href="media/interpreting.mp4" class="video mp4">video</a> and try out the <a href="media/essay_body/story.html" class="activity interactive">interactive activity</a> on how to analyse an assignment question.</p>
+                      <h3>Taxonomy: the internet</h3>
+                      <p><img src="images/taxonomy.gif" width="648" height="933" alt="Taxonomy flowchart separating arguments for and against the internet into paragraphs and relevant supporting sentences." /></p>
+                      <h3>Sample essay</h3>
+                      <p><em>Argue either in favour or against the impact of the internet on people's lives in the last decade.</em></p>
+                      <p>As an avenue of entertainment and communication, and as a research and reference tool, the internet has had a huge impact on the modern societies of developed nations. At the same time, there is concern that the disadvantages and negative influences may outweigh the benefits to the society. This essay argues that, in the last decade, the advantages of the internet far outweigh the disadvantages. This claim is addressed with the support of current authoritative sources which provide the framework for making such a claim. This essay first explores the effect of the internet on the social structures of family life, and religious and spiritual practice. Subsequently, this essay examines the repercussions of the internet on national cultural identity and multiculturalism. </p>
+                      <p>Firstly, in the last ten years, modern family life has been enhanced by developments in technology, and the internet is no exception. The advent of the internet affords parents the opportunity to use the World Wide Web to work from home, removing the need to place pre-school age children in day care centres in the care of strangers and so reinforcing the family unit (Jenkins 2010). However, the benefits of the internet not only have implications for immediate family; members of the extended family can overcome the barriers of time or distance to remain close through such channels as email or social networking sites, for example Facebook. Despite this, Fenech (2007) asserts that the internet has eroded some aspects of family life. Where previous generations may have forsaken dinner conversation in order to watch television together, the practical dimensions of a laptop screen now preclude this act of "togetherness" (p342). Nevertheless, any avenue that generally allows more opportunity for contact between members of an immediate or extended family has to be seen as advantageous. Moreover, the internet allows a sense of inclusion that goes beyond the family sphere. </p>
+                      <p>Secondly, due to the increasing accessibility of the internet in the last ten years, participating in a religion no longer necessarily depends on a person's ability to attend a place of worship. The virtual 'congregation' may offer a person more opportunities of interaction with both the spiritual leader and other devotees by providing facilities such as blogs, chat rooms and video links. Moreover, this creates a sense of belonging to a religious or spiritual community where one may have not existed before, as more and more people commute, work longer hours and, indeed, are required to work on public holidays, which often coincide with religious festivals (Wong 2009). Though Goldstein (2008) ascertains that the flagrant consumerism promoted through such mass media outlets as the internet is responsible for a turn away from religious practices and a rapid decline in religious service attendance, her research focuses solely on, Christianity, Judaism and Islam and is not inclusive of growing sects such as Jews For Jesus and alternative religions such as The Baha'i Faith. Groups such as these use the internet to unite their followers globally (Wong 2009).What is more, the internet is uniting people on a more personal and intimate level. </p>
+                      <p>Thirdly, the internet offers the opportunity to maintain cultural ties with one's country even when living abroad for work purposes. Expatriates can view electronic versions of newspapers, stream and download news, current affairs programmes and local dramas from their country of origin, so keeping in contact with the culture. It could be argued, as Azhad (2008) does, that this process could be facilitated just as easily by print media and DVD recordings being sent through the mail, as would have been the norm a decade ago. Nonetheless, it is the 'live' experience of being able to access news from home "as it happens" that reinforces a national's ties to the home culture, and simulates a feeling of "being there" (Olsten 2008 p.6). This connectedness to home alleviates feelings an expatriate might have of dislocation or alienation from their countrymen, as 'real time' exposure to the home vernacular creates common reference points, making communication a much smoother process (Wong 2009). Equally, other facilities afforded by the internet, such as Skype, enable someone away from home to still have a presence in the home country as they participate in the celebration of cultural festivals and national holidays, thus reinforcing their commitment to nationalism in the eyes of their compatriots and tightening the ties that bind. Alternatively, just as the internet serves to strengthen national identity, it can also provide a point of reference for those who live in a multicultural context. </p>
+                      <p>Finally, in a globalised world, the last ten years have seen the internet augment a multicultural society by creating a venue to air diverse cultural opinions and to construct diverse cultural identities. Mainstream newspapers, radio and current affairs programmes are representative of a perceived norm and do not reflect the complexity of a multicultural society. In turn, ethnocentric or non-mainstream media reach a narrowly targeted audience and serve to further ghettoize "the other" (Zadrow 2010 p.11). The internet thus provides the opportunity for any voice to be heard alongside and equally with all other voices in the country, community, or indeed, the world. In this way the internet equips the global citizen with a fluidity they can use to exist and interact both globally and locally, rather than being confined to a fixed and marginalised identity. Notwithstanding the fact that the internet is English based and broadly advocates a western lifestyle, this does not necessarily mean it must lead to a homogenized world. Citing the research of Kennard, Zadrow (2010) maintains that the internet acts as an interactive archive from which an individual can draw all the elements to both create and, more importantly, preserve cultural identity.</p>
+                      <p> In conclusion, this essay explored the effect of the internet on people's lives in the last decade and found that the advantages of the internet far overshadow the disadvantages. It found the internet has had positive effects on family life, allowing the hands on parenting of pre-school children by those parents who are able to use the internet to work from home. In addition, it has reinforced the extended family by harnessing email and social networking sites as a means to stay in direct contact. Furthermore, blogs, chat rooms and video links have offered an alternative to attendance at religious services, which have suffered such rapid decline in recent times. Another positive effect of the internet is its ability to re-assert national identity, particularly for those living abroad, as they retain remote access to the home culture by being able to download or stream current affairs or local drama. Finally, the internet enhances multiculturalism by offering an alternative to mainstream media representations of the norm to those who identify as 'the other'. Arguments which support the negative impact of the internet on people's lives in the 21st century focus on very narrow aspects and fail to acknowledge the broad range of benefits the internet has borne on contemporary society. </p>
+                      <p class="centretext"><strong>References</strong></p>
+                      <p>Azhad, S 2008, 'Is digital dumbing us down?', <em>Journal of Australian Initiative</em>, vol. 20, no.1, pp.5-7, viewed 30 October 2011, via JSTOR.</p>
+                      <p> Fenech, P 2007, <em>Western culture: its psyche and the internet</em>, Hobson Press, New York. </p>
+                      <p>Goldstein, R 2008, 'The last person to leave heaven: a study of the impact of new millennium consumerism on traditional religious practices', <em>Journal of Critical and Cultural Research</em>, vol.2, no.3, pp. 9-18, viewed 30 October 2011. http://www.prb.australasia.com/content/documents/JCCR%23.pdf </p>
+                      <p>Jenkins, M 2010, 'Earn $$$ from your home: the domestic revolution in e-com industry', <em>Women's Business Today</em>, vol.8, no.2, pp.120-127, viewed 28 September, via Sage. </p>
+                      <p>Olsten, H 2008, 'Broadsheets online good news for expats', <em>The Weekend Australian</em>, viewed 2 September 2011, via Newsbank. </p>
+                      <p>Wong, Z 2009, 'Why kneel when you can click!' paper presented to the 7th International Conference on Digital Religion, Southern Cross University. Lismore, NSW, 28 to 31 July. </p>
+                      <p>Zadrow, K 2010, <em>The well in the mirror: theories of subjectivity in the digital age</em>, Elliott McGill Ltd, viewed 28 July 2011, via Ovid eBooks.</p>
+
+              </div>
+            </div>
+
+
+
+
+            <!--designing a live chat button-->
+                                  <button class="open-button" onclick="openForm()" >Technical Assistance</button>
+                                  <div class="chat-popup" id="myForm">
+                                    <form action="/action_page.php" class="form-container">
+                                      <h1>Hello!</h1>
+                                      <label for="msg"><b>How may we help you?</b></label>
+                                      <textarea placeholder="Type your message. We will connect you to a technical assistance. Thanks." name="msg" required></textarea>
+
+                                      <button type="submit" class="btn" >Send</button>
+                                      <button type="button" class="btn cancel" onclick="closeForm()">END CHAT</button>
+                                    </form>
+                                  </div>
+
+
+<!--footer-->
+    <div class="footer">
+      <div class="legal">
+        Charles Darwin University acknowledges the traditional custodians across the lands on which we live and work, and we pay our respects to Elders both past and present.
+
+        CRICOS Provider No: 00300K (NT/VIC) 03286A (NSW) RTO Provider No: 0373
+
+        ABN54 093 513 649
+
+        <!--social media-->
+        <div class="social-media-icons">
+          <a class="btn" href="http://www.facebook.com/home.php#!/CharlesDarwinUniversity"><i class="fab fa-facebook"></i></a>
+          <a class="btn" href="https://www.instagram.com/charlesdarwinuniversity/"><i class="fab fa-instagram"></i></a>
+          <a class="btn" href="http://twitter.com/CDUni"><i class="fab fa-twitter"></i></a>
+          <a class="btn" href="http://www.linkedin.com/company/charles-darwin-university?trk=copro_tab"><i class="fab fa-linkedin"></i></a>
+          <a class="btn" href="https://www.youtube.com/channel/UCKCcLzf49llRjQbNq3llFCg"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../js/myscript.js"></script>
+  </body>
+</html>
