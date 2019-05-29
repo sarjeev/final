@@ -88,10 +88,7 @@ body{
 
 }
 
-.Design:hover {
-  box-shadow: 0 16px 32px 0 rgba(0,0,0.1,0.5);
-  transform:scale(1.05);
-}
+
 
 .Design h3{
   margin-left: 40px;
