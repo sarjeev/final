@@ -90,12 +90,12 @@ function ex2off() {
   document.getElementById("ex2").style.display = "none";
 }
 
-function ex1on() {
-  document.getElementById("ex1").style.display = "block";
+function ex3on() {
+  document.getElementById("ex3").style.display = "block";
 }
 
-function ex1off() {
-  document.getElementById("ex1").style.display = "none";
+function ex3off() {
+  document.getElementById("ex3").style.display = "none";
 }
 
 function ex4on() {
