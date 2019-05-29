@@ -152,7 +152,7 @@ function paragraph_off() {
 
 
 function link_on() {
-  document.getElementById("link").style.display = "block";
+  document.getElementById("link").style.display = "inline-flex";
 }
 
 function link_off() {
